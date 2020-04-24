@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Rancho&display=swap" rel="stylesheet">
+    <title>Foodie</title>
+</head>
+<body>
+    <main>
+        <header id="header">
+            <nav id="nav-bar">
+                <div id="logo">
+                    <h1>Foodie</h1>
+                    <img id="header-img" src="img/Logo.png" alt="HamburguerLogo">
+                </div>
+                <a href="#feature">
+                    <div class="nav-link">
+                        <h1>Feature</h1>
+                    </div>
+                </a>
+                <a href="#howto">
+                    <div class="nav-link">
+                        <h1>How To</h1>
+                    </div>
+                </a>
+                <a href="#plans">
+                    <div class="nav-link">
+                        <h1>Plans</h1>
+                    </div>
+                </a>    
+            </nav>
+        </header>
+        <div id="main">
+            <div id="feature" class="flex-column">
+                <div id="title">
+                    <p>A new way to order</p>
+                </div>
+                <div class="content feature">
+                    <img id="logo1" class="centered" src="img/delivery.png" alt="Delivery-logo">
+                    <img id="logo2" class="centered" src="img/id.png" alt="Id-logo">
+                    <img id="logo3" class="centered" src="img/Vector.png" alt="clock-logo">
+                    <h2 id="txt1">The fastest delivery!</h2>
+                    <p id="txt1" class="centered">Done under 30 mins by the most qualified delivery men</p>
+                    <h2 id="txt2">The most qualified</h2>
+                    <p id="txt2" class="centered">Only the best chef will prepare your own plate and you can beaware of everything</p>
+                    <h2 id="txt3">At any time !</h2>
+                    <p id="txt3" class="centered">The best chefs ready for you 24hrs at day.</p>
+                </div>
+            </div>
+            <div id="register" class="flex-column">
+                <div id="title">
+                    <p>Start order</p>
+                </div>
+                <form id="form" class="flex-column" action="https://www.freecodecamp.org/email-submit">
+                    <input type="email" class="margin" name="email" id="email" placeholder="Enter your email adresses">
+                    <input id="submit" type="submit" value="submit">
+                </form>
+            </div>
+            <div id="howto" class="flex-column">
+                <div id="title">
+                    <p>How to order</p>
+                </div>
+                <div class="content howto">
+                    <h2 style="font-size: 64px;" id="txt1" class="centered">Couldn't  be more easy</h2>
+                    <iframe id="video" width="390" height="260" src="https://www.youtube.com/embed/EykBhS9eGps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p id="img2">
+                        -Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi morbi elementum habitant neque. Dictum egestas scelerisque nibh tellus, morbi placerat leo elit eget.
+                    </p>
+                    <p id="img3">
+                        - Semper convallis sed dignissim amet, faucibus suspendisse tempus tortor.
+                        - Enim, et viverra varius turpis urna ultricies.
+                    </p>
+                    <p id="txt3" class="centered">
+                        - Semper convallis sed dignissim amet, faucibus suspendisse tempus tortor.
+                        - Enim, et viverra varius turpis urna ultricies.
+                    </p>
+                </div>
+            </div>
+            <div id="plans" class="flex-column">
+                <div id="title">
+                    <p>Plans</p>
+                </div>
+                <div class="content plans">
+                    <div class="centered ">
+                        <p>Free</p>
+                        <p>$0/month</p>
+                    </div>
+                    <div class="centered ">
+                        <p>Premium</p>
+                        <p>$20/month</p>
+                    </div>
+                    <div class="centered text">
+                        <p>Rolyalty</p>
+                        <p>$60/month</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
